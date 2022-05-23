@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1>"> 
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <title>Table Radio</title>
+    <script defer src="login.js"></script>
+    <h1>Welcome to Group 3's Capstone Project</h1>
+    <div>
+      <img id="image1" width = "500" height="300" />
+    </div>
+    <script>
+      var imgArray = [
+        'img/image1.jpg',
+        'img/image2.jpg',
+        'img/image3.jpg'
+      ];
+      var curIndex=0;
+      var imgDuration = 5000;
+
+      function slideShow() {
+        document.getElementById('image1').src = imgArray[curIndex];
+        curIndex++;
+        if (curIndex == imgArray.length) {curIndex = 0;}
+        setTimeout("slideShow()", imgDuration);
+      } 
+      slideShow();
+    </script>
+</head>
+<body>
+    <h2>Introducing the Grandma Radio!</h2>
+    <!--<img src="img/dancing_people.jpg"> -->
+    <main id="main-holder>">
+        <h1 id="login-header"></h1>
+        <div id="login-error-msg-holder">
+            <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+          </div>
+
+        <form id="login-form">
+            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+            <input type="submit" value="Login" id="login-form-submit"> 
+        </form>
+    </main>
+</body>
+
+<!--
+<style>
+    .banner {
+        width: 100%;
+        background-image: url(http://www.clipartsuggest.com/images/756/dancing-people-clipart-free-cliparts-that-you-can-download-to-you-Mov11u-clipart.jpeg);
+        height: 405px;
+        background-position: center; 
+    }
+    
+</style>
+-->

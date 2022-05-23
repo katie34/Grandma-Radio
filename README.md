@@ -1,4 +1,4 @@
-# Grandma-Radio
-Capstone project with hardware and software components to mimic a user friendly radio.
+# table_radio
+CSCI 499 Capstone Project
 
-[Link to Site]: https://katie34.github.io/Grandma-Radio/](http://ssh.noglider.com:8088/katie/table_radio/ 
+[Link to Site](https://tableradio.github.io/table_radio/)
