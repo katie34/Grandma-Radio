@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" sizes="32x32">
+	<!-- I will link to my page the boxicons library -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<h2>Granddaughter Mode</h2>
+	<!-- I will use a google font that i like -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<!-- Link to my stylesheet -->
+	<link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+	<div class="search-wrapper">
+		<input type="number" placeholder="Radio Number 0-7" id="myInput1" min="0" max = "7">
+        <button onclick="pushfile()" type="button" class="save">Save</button>
+		<label for="search" class="criteria">Search by name, location or genre:</label>
+		<input id="search-bar" onkeyup="searchResults()" type="text" name="search">
+		<ul id="list-holder">
+		</ul> 
+	</div>
+	<div id="content"></div>
+	<!-- the cards on the site -->
+	<div class="stations"></div> 
+	<script src="filter.js"></script> 
+</body>
+</html>
+

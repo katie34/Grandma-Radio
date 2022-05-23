@@ -1,0 +1,106 @@
+*{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	margin-left: 30px;
+    margin-right: 30px;
+	box-sizing: border-box;
+}
+
+.search-wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: .25rem;
+}
+
+.save{
+	font: 100px;
+	font-weight: bold;
+	color: black;
+}
+input {
+	font-size: 1rem;
+}
+
+body{
+	background-image: url("https://images.unsplash.com/photo-1580488952271-26e4563c2089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+}
+
+.hide{
+	display: none;
+}
+
+h2{
+	text-align: center;
+	background: #4e4c4c;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+    max-width: auto;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.stations{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	object-fit: scale-down;
+	overflow:hidden;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 25px;
+	gap: .25rem;
+	background-color: lightgrey;
+	border: 1px solid #fff;
+	margin: 50px auto;
+	margin-top: 1rem;
+	padding: 5px 40px 5px 5px;
+}
+
+.response-cards{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	object-fit: scale-down;
+	overflow: hidden;
+	min-width: 350px;
+	max-width: 350px;
+	height: 600px;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, .5);
+	padding: 10px;
+	background-color: white;
+}
+
+.img{
+	max-width: 225px;
+}
+
+.criteria{
+	background-color: lightgrey;
+    color: black;
+	padding-left: 10px;
+	font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 50px;
+    margin-right: 50px;
+    max-width: auto;
+	margin-top: 50px;
+	font-size: 40px;
+}
+
+.logo{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	object-fit: scale-down;
+	overflow: hidden;
+	max-width: 1000px;
+	max-height: 1000px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
